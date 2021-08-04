@@ -75,7 +75,20 @@ body{
 /*=================================
         Custom Css
 ===================================*/
-
+/* google maps */
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 /* overlay */
 .bg-overlay{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 
@@ -116,7 +129,7 @@ a:focus {color: inherit}
 }
 
 .text{
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 300;
 }
